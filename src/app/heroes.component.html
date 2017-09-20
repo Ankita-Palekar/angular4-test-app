@@ -8,6 +8,8 @@
 <!--</div>-->
 
 
+
+
 <ul class="heroes">
   <li *ngFor="let hero of heroes" [class.selected]="hero === selectedHero">
     <span class="badge" (click)="onSelect(hero)">{{hero.id}}</span> {{hero.name}}
